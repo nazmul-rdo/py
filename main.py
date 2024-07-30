@@ -1,7 +1,7 @@
 w=20
-h=10
+height=10
 
-area=1/2*(w+h)
+area=1/2*(w+height)
 
 print(area)
 
