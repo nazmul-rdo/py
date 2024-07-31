@@ -8,7 +8,7 @@ app.secret_key = secrets.token_hex(16)  # Generates a secure random key
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    number_to_guess = random.randint(1, 100)  # Random number for guessing
+    number_to_guess = random.randint(1, 50)  # Random number for guessing
     if request.method == 'POST':
         try:
             guess = int(request.form.get('guess'))
