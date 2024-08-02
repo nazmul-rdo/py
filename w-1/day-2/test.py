@@ -1,7 +1,7 @@
 def myfunc(n):
   return abs(n - 40)
 
-thislist = [100, 50, 65, 82, 23]
+thislist = [100, 50, 65, 82, 23,65]
 
 thislist.sort(key = myfunc)
 
